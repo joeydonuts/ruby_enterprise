@@ -1,0 +1,11 @@
+Packages required for installation
+  yum install gcc.x86_64
+  yum install gcc-c++.x86_64
+  yum install gperf.x86_64
+  yum install byacc.x86_64
+  yum install openssl-devel.x86_64
+
+There may be other packages that weren't installed with your installation of Centos7.
+The fresh installation provided by my provider didn't include the packages above.  The
+installer will stop when it does not have a required package.  You may have  to do some
+searching to find the package needed.   
