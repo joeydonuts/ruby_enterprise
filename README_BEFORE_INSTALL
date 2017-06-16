@@ -1,0 +1,23 @@
+Running gem without doing the following will cause a seg fault.
+
+HOW TO PREVENT
+log in as root on your machine
+
+type
+
+export CFLAGS="-O2 -fno-tree-dce -fno-optimize-sibling-calls"
+
+type
+
+<enter>
+
+in the root directory of the repository
+
+type 
+
+./installer
+
+type
+<enter>
+
+Everything should compile and you should be able to install gems. 
